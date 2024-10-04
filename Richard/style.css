@@ -33,24 +33,32 @@ header{
     align-items: center;
     justify-content: space-between;
     color: #1D4E89;
-    padding: 5px;
+    padding: 5px ;
     height: 12%;
+}
+
+header h1 {
+    font-size: 2.7rem; /* Aumenta o tamanho da fonte do texto "HomeCare" */
+    padding-right: 1px; /* Adiciona espaçamento à direita para dar mais largura */
+    font-weight: bold; /* Deixa o texto mais destacado */
 }
 header div{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 30%;
-    font-size: 15px;
+    width: 25%;
+    font-size: 1.2rem;
+    gap: 10px;
 }
 
 header button{
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: #2F6AAE;
     border-radius: 50px;
-    padding: 7px;
-    font-size: 18px;
+    padding: 12px 20px;
+    font-size: 1.1rem;
     color: aliceblue;
 }
 
@@ -72,15 +80,16 @@ main{
 }
 
 .cima{
-    height: 50%;
-    padding: 30px;
+    height: 55%;
+    margin-top: -35px;
 }
 
 .cima h2{
-    font-size: 40px;
+    font-size: 62px;
 }
-.cima p{
-    width: 69%;
+.cima p {
+    font-size: 24px; /* Aumente o valor conforme necessário */
+    width: 80%; /* Ajuste a largura se quiser que o texto ocupe mais espaço */
 }
 .cima div{
     display: flex;
@@ -91,9 +100,9 @@ main{
     display: flex;
     justify-content: center;
     border-radius: 50px;
-    padding: 10px;
-    font-size: 15px;
-    width: 40%;
+    padding: 15px;
+    font-size: 20px;
+    width: 45%;
     margin-inline: 1%;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
@@ -117,10 +126,12 @@ main{
     height: 40%;
 }
 
-.cartela{
+.cartela {
     width: 80%;
     height: 40%;
+    margin-top: -320px; /* Ajuste o valor conforme necessário */
 }
+
 
 .direita{
     position: relative;
@@ -133,6 +144,16 @@ main{
     background-color: #4682b4;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
-    top: 44%;
-    left: 89%;
+    top: 26%;
+    left: 60%;
+}
+
+.cartela img {
+    width: auto;
+    height: 100%; /* ou um valor maior, como 150% para aumentar ainda mais */
+}
+
+.celular img {
+    width: auto;
+    height: 100%; /* ou um valor maior, como 150% para aumentar ainda mais */
 }
